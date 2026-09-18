@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="deb_cicd_prac_project",
-    version="0.0.1",
+    version="0.0.2",
     description="This contains the code in the ./src directory of the project",
     author="Shuja",
     packages=find_packages(where="./src"),
