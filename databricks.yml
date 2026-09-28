@@ -57,5 +57,8 @@ targets:
       catalog: 'citibike_prod'
     #   schema: prod
     permissions:
-      - user_name: shujarahamani@gmail.com
+      # - user_name: shujarahamani@gmail.com
+      - service_principal_name: 6b967268-4bdb-4e4e-a9dc-c3d5bbf7a2e2
         level: CAN_MANAGE
+    run_as:
+          service_principal_name: 6b967268-4bdb-4e4e-a9dc-c3d5bbf7a2e2
